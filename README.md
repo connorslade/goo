@@ -1,6 +1,8 @@
-# `goo`
+# `goo` [![Build](https://github.com/connorslade/goo/actions/workflows/build.yml/badge.svg)](https://github.com/connorslade/goo/actions/workflows/build.yml) [![Latest Version](https://img.shields.io/crates/v/goo)](https://crates.io/crates/goo) [![Downloads](https://img.shields.io/crates/d/goo?label=Downloads)](https://crates.io/crates/goo)
 
-[![Build](https://github.com/connorslade/goo/actions/workflows/build.yml/badge.svg)](https://github.com/connorslade/goo/actions/workflows/build.yml) [![Latest Version](https://img.shields.io/crates/v/goo)](https://crates.io/crates/goo) [![Downloads](https://img.shields.io/crates/d/goo?label=Downloads)](https://crates.io/crates/goo)
+> [!IMPORTANT]  
+> This crate has been deprecated in favor of my new [msla_format](https://crates.io/crates/msla_format) crate, which supports additional formats (.ctb and .nanodlp), and is auto generated from the [mslicer](https://github.com/connorslade/mslicer) source tree so it can be more easily updated.
+> This crate will no longer be updated.
 
 Library for encoding and decoding Elegoo's `.goo` file format.
 This is a stand alone version of this crate taken from my [mslicer](https://github.com/connorslade/mslicer) project, its an open source slicer for masked stereolithography printers.

@@ -1,6 +1,6 @@
 [package]
 name = "goo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 categories = ["parser-implementations", "rendering::data-formats"]
@@ -11,6 +11,9 @@ keywords = ["elegoo", "goo"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/connorslade/goo"
+
+[badges.maintenance]
+status = "deprecated"
 
 [dependencies]
 anyhow = "1.0.86"

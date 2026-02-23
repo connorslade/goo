@@ -8,7 +8,7 @@ impl Default for HeaderInfo {
         Self {
             version: SizedString::new(b"V3.0"),
             software_info: SizedString::new(b"crates.io/crate/goo"),
-            software_version: SizedString::new(b"0.1.0"),
+            software_version: SizedString::new(b"0.1.1"),
             file_time: SizedString::new(b""),
             printer_name: SizedString::new(b"standard"),
             printer_type: SizedString::new(b"Default"),
